@@ -1,0 +1,78 @@
+.create{
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    background-repeat: no-repeat;
+    background-image: url('../../img/hero-bg.jpg');
+    padding-top: 117px;
+    padding-left: 85px;
+    padding-bottom: 116px;
+    border-radius: 8px; 
+}
+.create__heading{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+      max-width: 493px;
+      margin-bottom: 32px;
+
+}
+.create__text{
+ font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+opacity: 0.8;
+margin-bottom: 56px;
+max-width: 493px;
+}
+.create__link{
+    @include button;
+}
+@media only screen and (max-width:626px) {
+    .create{
+      padding: 104px 58px;
+        background-image: url(../../img/choose-bg-tablet.jpg);
+    }
+    .create__heading{
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+        color: #FEFCF7;
+        max-width: 329px;
+        margin-bottom: 24px;
+    }
+    .create__text{
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #FEFCF7;
+opacity: 0.8;
+margin-bottom: 40px;
+       }
+}
+@media only screen and (max-width:460px) {
+    .create{
+      padding: 100px 24px;
+        background-image: url(../../img/moile-choose-bg.jpg);
+    }
+    .create__heading{
+        font-weight: 900;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+color: #FEFCF7;
+max-width: 279px;
+    }
+    .create__text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+       }
+}

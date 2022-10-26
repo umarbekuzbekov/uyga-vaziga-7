@@ -1,0 +1,104 @@
+.collection__container{
+    background-repeat: no-repeat;
+    background-image: url(../../img/collection_bg.svg);
+max-width: 1111px;
+background-position: center top;
+padding-top: 123px;
+}
+.collection__list{
+    max-width: 1111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.collection__item{
+    max-width: 255px;
+}
+
+.item__heading{
+    font-family: 'Fraunces';
+    font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+margin-bottom: 24px;
+}
+.item__text{
+    max-width: 255px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #333D4B;
+}
+.collectionimg{
+    max-width: 255px;
+    margin-bottom: 71px;
+}
+@media only screen and (max-width:1000px) {
+
+    .collection__container{
+       background-image: url(../../img/collection_tablet-bg.svg);
+    // max-width:900px;
+  
+    }
+    .collection__list{
+        max-width: 1111px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    text-align: center;
+    }
+    .collection__item{
+       max-width: 573px;
+      display: flex;
+      align-items: center;
+
+    }
+    .item__heading{
+        margin-bottom: 24px;
+        font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+max-width: 255px;
+    }
+    .item__text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        max-width: 282px;
+        
+    }
+    
+}
+@media only screen and (max-width:573px) {
+
+    .collection__container{
+       background-image: url(../../img/collection_tel-bg.svg);
+    max-width: 500px;
+    
+  
+    }
+    .collection__item{
+       
+      flex-direction: column;
+    margin-bottom: 48px;
+    }
+    .item__text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        max-width: 282px;
+        
+    }
+    
+    .collectionimg{
+        max-width: 200px;
+        margin-bottom: 24px;
+    }
+}
